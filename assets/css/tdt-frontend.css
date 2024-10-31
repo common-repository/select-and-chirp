@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Roboto:wght@400;500;700&family=Sansita+Swashed:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Open+Sans:ital,wght@1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+
+.btnEntrance {
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+@keyframes btnEntrance {
+  /* zoomIn */
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 1.25rem 6rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    padding: 1rem 3rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  hr {
+    margin: 1.5rem 0;
+  }
+}
+.tdt-text {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+
+
+
+button.twt-icon-js:hover,
+button.twt-icon-js:active,
+button.twt-icon-js:hover,
+.twt-icon-js button:active,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+.wp-block-search .wp-block-search__button:hover,
+.wp-block-search .wp-block-search__button:active,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:active,
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-file a.wp-block-file__button:active {
+  background-color: transparent;
+  border: none;
+}
+button.twt-icon-js:not(:hover):not(:active):not(.has-background) {
+  border: none;
+  background-color: unset;
+}
+button.twt-icon-js:not(:hover):not(:active):not(.has-background) {
+  border: none;
+  background-color: unset;
+}
+button.twt-icon-js:focus {
+  outline: none;
+}
+
+/* Text Template */
+
+/* Template 1 */
+
+.twt-text-template-1 {
+  width: 100px;
+  height: 55px;
+  font-size: 12px;
+  background-color: #138de5 !important;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  padding-right: 5px;
+  padding-left: 5px;
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out;
+}
+button.twt-text-template-1 {
+  align-items: center;
+}
+.twt-text-icon svg {
+  height: 20px;
+  width: 20px;
+}
+
+/* Template-2 */
+
+button.twt-text-template-2 {
+  align-items: center;
+}
+
+.twt-text-template-2 {
+  width: 115px;
+  height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out;
+}
+.twt-icon-template-1,
+.twt-icon-template-2,
+.twt-icon-template-3,
+.twt-icon-template-4,
+.twt-icon-template-5 {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.25rem;
+  color: #56b8f5;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out;
+}
+.twt-icon-template-1 path.twt-backgrnd:hover,
+.twt-icon-template-2 path.twt-backgrnd:hover,
+.twt-icon-template-3 path.twt-backgrnd:hover {
+  fill: #bde0f6;
+}
+.twt-icon-template-5 path.twt-backgrnd:hover {
+  fill: #003d64;
+}
+.twt-text-template-2 {
+  color: #fff;
+  background-color: #138de5 !important;
+ 
+}
+
+button.twt-text-template-2 {
+  padding: 10px;
+}
+
+
+.icon svg {
+  height: 20px;
+  width: 20px;
+}
+
+
+span.icon {
+  margin-right: 5px;
+}
+
+button.twt-text-template-1:hover,
+button.twt-text-template-2:hover {
+  background-color: #58abe7 !important;
+}
+
+
+
+.twt-icon-template-1 path.twt-icon:hover, .twt-icon-template-2 path.twt-backgrnd:hover{
+  fill: #1731a3;
+}
+
+
+
+
+button#twt-js {
+  cursor: pointer;
+}
+
+/* Shortcode css */
+
+.twt-shortcode-button-wrap button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.twt-shortcode-button-wrap button {
+  display: flex;
+  background: none;
+  border: none;
+  align-items: center;
+  padding: 10px;
+}
+
+/* .shortcode-text-template-1 {
+  width: auto ;
+  height: 55px;
+  font-size: 12px;
+  background-color: #138de5 !important;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  padding-right: 5px;
+  padding-left: 5px;
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out;
+} */
+.shortcode-text-template-1 ,
+.shortcode-text-template-2,
+.shortcode-text-template-3,
+.shortcode-text-template-4{
+  color: #fff;
+  background-color: #138de5 !important;
+}
+.shortcode-text-template-1,
+.shortcode-text-template-2,
+.shortcode-text-template-3,
+.shortcode-text-template-4{
+   width: auto; /* 115px */
+  height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out;
+}
+/* .shortcode-text-template-3 {
+  color: #fff;
+  background-color: #138de5 !important;
+}
+.shortcode-text-template-3 {
+  width: auto;
+  height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 0px;
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out; */
+
+/* .twt-shortcode-button-wrap button.shortcode-text-template-4 {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.shortcode-text-template-4 {
+  width: auto;
+  height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 0px;
+  z-index: 10;
+  display: none;
+  transition: 0.3s ease-out;
+} */
+
+.twt-relative{
+  position: relative;
+}
+
+.twt-icon-js .icon {
+  height: auto;
+  width: auto;
+}
+.srt-icon .icon {
+  height: auto;
+  width: auto;
+}
+button.srt-icon {
+  background: none !important;
+}
+button:focus, button:hover, .button:focus, .button:hover, .faux-button:focus, .faux-button:hover, .wp-block-button .wp-block-button__link:focus, .wp-block-button .wp-block-button__link:hover, .wp-block-file .wp-block-file__button:focus, .wp-block-file .wp-block-file__button:hover, input[type="button"]:focus, input[type="button"]:hover, input[type="reset"]:focus, input[type="reset"]:hover, input[type="submit"]:focus, input[type="submit"]:hover {
+  text-decoration: none !important;
+}
+
+
+.shortcode-text-template-4 .icon svg {
+  height: 33px;
+  width: 33px;
+  margin-right: 4px;
+  margin-top: 8px;
+}
+/* Shortcode css */
+
+
+/* template-0 */
+
+.twt-relative{
+  position: relative;
+}
+.template-0 .twt-srtcode {
+  background: #50b6ff;
+  color: #fff;
+}
+
+.template-0 .twt-shortcode-button-wrap {
+	position: absolute;
+	top: -47px;
+}
+.template-0 .twt-line
+/* end */
+/* Template-1 */
+
+.twt-relative.template-1 {
+  padding: 20px 20px 20px 60px;
+  background-color: #fff;
+  border-left: 10px solid #80CDFF;
+}
+.template-1 .twt-srtcode {
+  color: #000;
+  /* color: #fff; */
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Gelasio;
+}
+.template-1 .twt-shortcode-button-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.twt-relative.template-1::before {
+  content: "";
+  position: absolute;
+  height: 33px;
+  width: 33px;
+  left: 23px;
+  background-image: url("../img/quote.svg");
+  background-repeat: no-repeat;
+}
+.template-1 .twt-line{
+  display: none;
+}
+
+/* End of Template 1 */
+/* Template-2 */
+.twt-relative.template-2 {
+  padding: 30px 25px 10px 55px;
+  background-color: #58b4f7;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.template-2 .twt-srtcode {
+  color: #fff;
+  font-family: 'Salsa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.twt-relative.template-2::before {
+  content: "";
+  position: absolute;
+  height: 33px;
+  width: 33px;
+  left: 23px;
+  background-image: url("../img/template-2.svg");
+  background-repeat: no-repeat;
+}
+
+.template-2 .twt-line {
+  width: 100%;
+  height: 1.5px;
+  background: #CDCCCC;
+  margin: 20px 0;
+}
+
+/* End of Template 2 */
+
+.twt-relative .shortcode-text-template-1,.twt-relative .shortcode-text-template-2 {
+  position: relative;
+}
+.twt-shortcode-wrap.template-1 {
+  padding: 20px 20px 20px 60px;
+  background-color: #fff;
+  border-left: 10px solid #80CDFF;
+}
+.twt-shortcode-wrap.template-0 {
+  margin-top: 65px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+           
